@@ -1,0 +1,110 @@
+body {
+  background: gray;
+  max-width: 90%;
+  margin: auto;
+}
+
+.photoProfile {
+  border-radius: 5%;
+  border: 1px solid black;
+}
+
+#title,
+.subtitle,
+.post_title {
+  color: blue;
+}
+
+.post {
+  background: bisque;
+  padding: 15px;
+  border: blue 4px dotted;
+  border-top: brown 2px solid;
+  border-right: green 6px dashed;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+.post_title {
+  font-size: 16px;
+  font-style: italic;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.postContent {
+  background-color: royalblue;
+  margin: 0px;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.postImage {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+a {
+  text-decoration: line-through;
+  color: saddlebrown;
+}
+
+p {
+  font-size: 30px;
+  font-family: "Arial Narrow", Arial, sans-serif;
+}
+
+#title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 60px;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.subtitle {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 50px;
+  font-style: italic;
+  text-transform: lowercase;
+  text-decoration: line-through;
+}
+
+.post_title {
+  font-family: verdana, Arial;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-decoration: overline;
+}
+
+li {
+  font-family: arial narrow;
+  font-size: 30px;
+}
+
+.contactList {
+  list-style-type: square; /*none*/
+  color: blue;
+  
+}
+
+.contactList li a {
+  color: black;
+  text-decoration: none;
+}
+
+.testList {
+  list-style-type: upper-alpha;
+  color: rgb(60, 30, 30);
+}
+
+.listTest {
+  list-style-type: circle;
+  color: chartreuse;
+  
+}
+
+/*Box model: margin, border, padding e content*/
+/*Border: dotted, solid e dashed - border-radius (arredondar) */
